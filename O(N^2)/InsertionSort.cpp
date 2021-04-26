@@ -26,7 +26,8 @@ void printArray(int a[], int n){
 }
 int main(){
 	int n;
-	do{
+	do
+	{
 		cout << "How many elements are there in Array? ";
 		cin >> n;
 	} while(n <= 0);
