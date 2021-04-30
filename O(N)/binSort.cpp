@@ -100,6 +100,8 @@ void binSort(int a[], int n, int m, List &B){
 			B[0].header = B[0].header->next;
 			j++;
 		}
+		
+		//reset list B
 		createNullBin(B);
 	}
 }
